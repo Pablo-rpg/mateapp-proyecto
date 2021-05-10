@@ -21,3 +21,7 @@ ul li a{
 ul li a:hover{
     color: teal;
 }
+h1{
+    font-family: 'Indie Flower', cursive;
+    color:rgb(51, 34, 34);
+}
