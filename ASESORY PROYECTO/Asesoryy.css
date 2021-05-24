@@ -1,5 +1,5 @@
 *{
-    background-color:rgb(121, 95, 62)
+    background-color:rgb(217,210,224);
 }
 .menu{
     clear: both;
@@ -16,7 +16,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 ul li a:hover{
     color: teal;
@@ -27,4 +27,17 @@ h1{
 }
 .imm{
     width: 100%;
+}
+.imn{
+    float: left;
+    width: 100px;
+    margin-top: -20px;
+}
+    
+footer{
+    background-color:rgb(217,210,224);
+    color:#fff;
+    clear: both;
+    padding: 10px;
+    text-align: center;
 }
