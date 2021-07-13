@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/formulario.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <table>
+        <h1>Formulario Clientes</h1>
+        <table>
+            <form name=frmcliente>
+            <P>Código : 
+            <input type="text" onKeyPress="valida()"  name="txtcod"> 
+            <P>Ap. Paterno : 
+            <input onkeypress=validanombre(); name=txtpat id="txtpat"> 
+            <P>Ap Materno: 
+            <input onKeyPress=validanombre(); name=txtmat id="txtmat">
+            <P>Nombre: 
+            <input onKeyPress=validanombre(); name=txtnom id="txtnom">
+            <P>Tipo : 
+            <SELECT onchange=llenarsubtipo(); name=cmbtipo> 
+            <OPTION value=0  selected>Pc</OPTION> 
+            <OPTION value=1>Monitor</OPTION>
+            </SELECT> 
+            <P>subtipo: 
+            <SELECT name=cmbsubtipo> 
+            <OPTION value=0 selected>Pentium II</OPTION> 
+            <OPTION value=1>Pentium III</OPTION> 
+            <OPTION value=2>Pentium IV</OPTION>
+            </SELECT> 
+            <P>Categoria :
+            <INPUT type=checkbox name=chka> A <INPUT type=checkbox name=chkb>B 
+            <P>SEXO :
+            <INPUT type=radio name=rad> M :<INPUT type=radio CHECKED name=rad> F 
+            <P>
+            <INPUT onclick=enviar(); type=button value=Aceptar> 
+            <INPUT type=reset value=Limpiar> 
+            </form>	
+            </table>
+    
+  
+
+</body>
+</html>
