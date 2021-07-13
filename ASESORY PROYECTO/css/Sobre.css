@@ -20,11 +20,11 @@ header {
     text-align: center;
 }
 
-header .textos {
+header .textos {   
     margin-top: 152px;
 }
 
-header .titulo {
+header .titulo {      
     font-size: 85px;
 }
 
@@ -341,4 +341,18 @@ input[type="submit"] {
     .subtitulo-patrocinadores {
         font-size: 20px;
     }
+}
+.inicio{
+   text-align: right;   
+   font-size: 1.6em;
+   padding: 25px;
+}
+ul li a{
+    text-decoration: none;    
+    color: black;
+} 
+.imgico{
+    float: left;
+    width: 100px;
+    margin-top: 20px;
 }
